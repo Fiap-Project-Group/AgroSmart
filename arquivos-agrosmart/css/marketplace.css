@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* TEXTS */
+
+.texts{
+    margin: 40px;
+}
+
+.section-subtitle{
+    width: 248px;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #004B23;
+}
+
+.section-text{
+    max-width: 780px;
+    padding-top: 35px;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #5C5E5E;
+}
+
+.product-card {
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    transition:
+        opacity 0.3s ease-in-out,
+        transform 0.2s ease;
+}
+
+.product-card:hover{
+    transform: scale(1.02);
+}
+
+.product-card span{
+    font-weight: 400;
+    line-height: 1.7;
+    color: #5C5E5E;
+    margin: 10px;
+}
+
+.product-card h5{
+    font-weight: 800;
+    line-height: 1.7;
+    color: #004B23;
+    margin-left: 10px;
+}
+
+.product-card h3{
+    font-weight: 800;
+    font-size: 30pt;
+    line-height: 1.7;
+    color: #081C15;
+    margin-left: 10px;
+}
+
+.product-card button{
+    letter-spacing: 1.5px;
+    font-size: 13pt;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    color: #004B23;
+    border: 1px solid #004B23;
+    cursor: pointer;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    transition:
+        background-color 0.3s ease-in-out,
+        transform 0.2s ease;
+}
+
+.product-card button:hover{
+    color: #ffffff;
+    background-color: #004B23;
+    border: none;
+}
+
+.product-description{
+    font-weight: 400;
+    line-height: 1.7;
+    color: #5C5E5E;
+    margin: 10px;
+}
+
+.product-image{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
