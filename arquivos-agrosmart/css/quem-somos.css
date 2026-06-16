@@ -29,7 +29,7 @@ h2{
 }
 
 h1{
-    width: 872px;
+    width: 85%;
     font-weight: 700;
     font-size: 30pt;
     color: #081C15;
@@ -45,9 +45,30 @@ hr{
 }
 
 .p-introdução{
-    width: 874px;
+    width: 85%;
     font-weight: 400px;
     font-size: 12pt;
     color: #5C5E5E;
     padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    h1{
+        font-size: 25pt;
+    }
+
+    h2{
+        font-size: 16pt;
+    }
+
+    #conteudo > img {
+       width: 85%;
+       height: 100%;
+       margin: 0;
+    }
+
+    #conteudo{
+        flex-direction: column;
+    }
 }
