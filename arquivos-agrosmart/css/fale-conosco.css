@@ -37,6 +37,7 @@
     max-width: 872px;
     font-size: 30pt;
     font-weight: 700;
+    padding-bottom: 10px;
     color: #081C15;
 }
 
@@ -143,3 +144,65 @@
     opacity: 0.9;
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 1024px) {
+    .contact-section > img{
+        display: none;
+    }
+
+    .contact-content{
+        max-width: 95vw;
+
+    }
+
+
+    .contact-form-container{
+        width: 80vw;
+        padding-top: 30px;
+    }
+
+    #message-input{
+        display: block;
+        width: 78vw;
+    }
+
+
+    .form-input{
+        width: 40vw;
+        font-size: 12pt;
+        outline: none;
+    }
+
+    #submit-button{
+        width: 12vw;
+    }
+}
+
+
+@media screen and (max-width: 764px) {
+      
+    .section-description{
+        width: 80vw;
+    }
+
+    #submit-button{
+        width: 18vw;
+    }
+
+    .contact-info-grid{
+        flex-direction: column;
+    }
+
+    .contact-card{
+        padding-bottom: 20px;
+    }
+
+    .input-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-input{
+        width: 78vw;
+    }
+} 
