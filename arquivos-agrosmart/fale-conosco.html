@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="/arquivos-agrosmart/js/global/header.js" defer></script>
     <link rel="stylesheet" href="/arquivos-agrosmart/css/agrobot.css">
+    <script src="./js/fale-conosco/fale-conosco.js" defer></script>
 </head>
 
 <body>
@@ -132,13 +133,13 @@
                         <form action="" class="contact-form">
                             <div class="form-fields">
                                 <div class="input-row">
-                                    <input type="text" name="Nome" placeholder="Digite seu nome" required
+                                    <input type="text" name="Nome" id="name" placeholder="Digite seu nome" required
                                         class="form-input">
-                                    <input type="text" name="Email" placeholder="Informe seu Email" required
+                                    <input type="email" name="Email" placeholder="Informe seu Email" required
                                         class="form-input">
                                 </div>
                                 <input id="message-input" type="text" name="Descrição"
-                                    placeholder="Conte-nos sua mensagem" required class="form-input">
+                                    placeholder="Conte-nos sua mensagem" class="form-input" maxlength="500" required>
                             </div>
                             <div class="submit-button-container">
                                 <button id="submit-button">
