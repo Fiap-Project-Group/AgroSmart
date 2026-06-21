@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="/arquivos-agrosmart/js/global/header.js" defer></script>
+    <link rel="stylesheet" href="/arquivos-agrosmart/css/agrobot.css">
 </head>
 
 <body>
 
-      <header class="header">
-    
+    <header class="header">
+
         <div class="header-left">
-    
+
             <a href="./index.html" class="header-logo-link">
                 <img src="./img/AgroSmart.png" alt="Logo AgroSmart" class="logo-image">
             </a>
@@ -148,11 +149,82 @@
                     </div>
                 </div>
             </div>
-            <img src="./img/geralt-business-10174566.jpg" alt="Imagem agricultura"
-                class="contact-image">
+            <img src="./img/geralt-business-10174566.jpg" alt="Imagem agricultura" class="contact-image">
 
         </section>
     </main>
+    <button id="agrobot-btn">
+        <i class="fa-solid fa-seedling"></i>
+    </button>
+
+    <div id="agrobot-chat">
+
+        <div id="agrobot-header">
+
+            <div id="agrobot-info">
+
+                <span id="agrobot-title">
+                    <i class="fa-solid fa-seedling"></i>
+                    AgroBot IA
+                </span>
+
+                <small>● Online agora</small>
+
+            </div>
+
+            <button id="close-chat">✕</button>
+
+        </div>
+
+        <div id="agrobot-messages">
+
+            <div class="bot-message">
+                Olá! Sou o AgroBot 🌱
+            </div>
+
+
+            <div class="bot-message">
+                Como posso ajudar?
+            </div>
+
+        </div>
+
+        <div id="agrobot-options">
+
+            <button onclick="respostaClima()">
+                🌦️ Clima
+            </button>
+
+            <button onclick="respostaRastreamento()">
+                🚚 Entregas
+            </button>
+
+            <button onclick="respostaMarketplace()">
+                🛒 Marketplace
+            </button>
+
+            <button onclick="respostaPlantio()">
+                🌱 Plantio
+            </button>
+
+            <button onclick="respostaSuporte()">
+                📞 Suporte
+            </button>
+
+        </div>
+
+        <div id="agrobot-input-area">
+
+            <input type="text" id="agrobot-input" placeholder="Digite sua pergunta...">
+
+            <button onclick="enviarPergunta()">
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+    <script src="/arquivos-agrosmart/js/global/agrobot.js"></script>
 </body>
 
 </html>
