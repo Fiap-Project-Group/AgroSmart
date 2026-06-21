@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,70 +9,156 @@
     <title>Quem somos?</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="/arquivos-agrosmart/js/global/header.js" defer></script>
+    <link rel="stylesheet" href="/arquivos-agrosmart/css/agrobot.css">
 </head>
+
 <body>
     </head>
-<body>
-   <header class="header">
-    
-        <div class="header-left">
-    
-            <a href="./index.html" class="header-logo-link">
-                <img src="./img/AgroSmart.png" alt="Logo AgroSmart" class="logo-image">
-            </a>
 
-            <div class="menu-toggle">
-                <i class="fa-solid fa-bars"></i>
+    <body>
+        <header class="header">
+
+            <div class="header-left">
+
+                <a href="./index.html" class="header-logo-link">
+                    <img src="./img/AgroSmart.png" alt="Logo AgroSmart" class="logo-image">
+                </a>
+
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <nav class="header-nav-bar">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item">
+                            <a href="./rastreamento.html" class="header-nav-link">
+                                Rastreamento
+                            </a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="./quem-somos.html" class="header-nav-link">
+                                Quem Somos
+                            </a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="./fale-conosco.html" class="header-nav-link">
+                                Fale Conosco
+                            </a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="./marketplace.html" class="header-nav-link">Marketplace</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-actions">
+                <button id="register-button">
+                    Criar conta
+                </button>
+                <button id="login-button">
+                    Entrar
+                </button>
+            </div>
+        </header>
+        <main>
+            <section id="conteudo">
+                <div id="texts">
+                    <div>
+                        <h2>Quem Somos?</h2>
+                        <h1>Tecnologia que alimenta conexões e transforma o campo</h1>
+                        <hr>
+                    </div>
+                    <div>
+                        <p class="p-introdução">A AgroSmart nasceu com o propósito de transformar a logística agrícola
+                            por meio da tecnologia, conectando produtores e consumidores de forma mais inteligente,
+                            sustentável e eficiente. Nosso foco é combater o desperdício de alimentos e promover uma
+                            agricultura mais moderna, alinhada aos Objetivos de Desenvolvimento Sustentável da ONU,
+                            especialmente a ODS 2 — Fome Zero e Agricultura Sustentável.</p>
+                        <p class="p-introdução">Desenvolvemos uma plataforma digital que utiliza inteligência de dados
+                            para auxiliar pequenos produtores rurais na tomada de decisões estratégicas, oferecendo
+                            recursos como monitoramento climático, análise do solo, recomendações de plantio e
+                            rastreamento logístico em tempo real.</p>
+                        <p class="p-introdução">Acreditamos que a tecnologia pode reduzir perdas alimentares, melhorar a
+                            distribuição de produtos e fortalecer a renda de produtores rurais, criando uma cadeia de
+                            abastecimento mais sustentável e acessível para todos. Nossa missão é unir inovação,
+                            sustentabilidade e impacto social em uma única solução.</p>
+                    </div>
+                </div>
+                <img src="./img/lechungduc-vietnam-8704397.jpg" alt="">
+            </section>
+        </main>
+        <button id="agrobot-btn">
+            <i class="fa-solid fa-seedling"></i>
+        </button>
+
+        <div id="agrobot-chat">
+
+            <div id="agrobot-header">
+
+                <div id="agrobot-info">
+
+                    <span id="agrobot-title">
+                        <i class="fa-solid fa-seedling"></i>
+                        AgroBot IA
+                    </span>
+
+                    <small>● Online agora</small>
+
+                </div>
+
+                <button id="close-chat">✕</button>
+
             </div>
 
-            <nav class="header-nav-bar">
-                <ul class="header-nav-list">
-                    <li class="header-nav-item">
-                        <a href="./rastreamento.html" class="header-nav-link">
-                            Rastreamento
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="./quem-somos.html" class="header-nav-link">
-                            Quem Somos
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="./fale-conosco.html" class="header-nav-link">
-                            Fale Conosco
-                        </a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="./marketplace.html" class="header-nav-link">Marketplace</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-actions">
-            <button id="register-button">
-                Criar conta
-            </button>
-            <button id="login-button">
-                Entrar
-            </button>
-        </div>
-    </header>
-    <main>
-        <section id="conteudo">
-            <div id="texts">
-                <div>
-                    <h2>Quem Somos?</h2>
-                    <h1>Tecnologia que alimenta conexões e transforma o campo</h1>
-                    <hr>
+            <div id="agrobot-messages">
+
+                <div class="bot-message">
+                    Olá! Sou o AgroBot 🌱
                 </div>
-                <div>
-                    <p class="p-introdução">A AgroSmart nasceu com o propósito de transformar a logística agrícola por meio da tecnologia, conectando produtores e consumidores de forma mais inteligente, sustentável e eficiente. Nosso foco é combater o desperdício de alimentos e promover uma agricultura mais moderna, alinhada aos Objetivos de Desenvolvimento Sustentável da ONU, especialmente a ODS 2 — Fome Zero e Agricultura Sustentável.</p>
-                    <p class="p-introdução">Desenvolvemos uma plataforma digital que utiliza inteligência de dados para auxiliar pequenos produtores rurais na tomada de decisões estratégicas, oferecendo recursos como monitoramento climático, análise do solo, recomendações de plantio e rastreamento logístico em tempo real.</p>
-                    <p class="p-introdução">Acreditamos que a tecnologia pode reduzir perdas alimentares, melhorar a distribuição de produtos e fortalecer a renda de produtores rurais, criando uma cadeia de abastecimento mais sustentável e acessível para todos. Nossa missão é unir inovação, sustentabilidade e impacto social em uma única solução.</p>
+
+
+                <div class="bot-message">
+                    Como posso ajudar?
                 </div>
-           </div>
-           <img src="./img/lechungduc-vietnam-8704397.jpg" alt="">
-        </section>
-    </main>
-</body>
+
+            </div>
+
+            <div id="agrobot-options">
+
+                <button onclick="respostaClima()">
+                    🌦️ Clima
+                </button>
+
+                <button onclick="respostaRastreamento()">
+                    🚚 Entregas
+                </button>
+
+                <button onclick="respostaMarketplace()">
+                    🛒 Marketplace
+                </button>
+
+                <button onclick="respostaPlantio()">
+                    🌱 Plantio
+                </button>
+
+                <button onclick="respostaSuporte()">
+                    📞 Suporte
+                </button>
+
+            </div>
+
+            <div id="agrobot-input-area">
+
+                <input type="text" id="agrobot-input" placeholder="Digite sua pergunta...">
+
+                <button onclick="enviarPergunta()">
+                    ➤
+                </button>
+
+            </div>
+
+        </div>
+        <script src="/arquivos-agrosmart/js/global/agrobot.js"></script>
+    </body>
+
 </html>
